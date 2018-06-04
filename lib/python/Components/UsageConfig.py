@@ -85,8 +85,6 @@ def InitUsageConfig():
 		("off", _("Disabled")),
 		("small", _("Small")),
 		("large", _("Large")),])
-	config.usage.panicbutton = ConfigYesNo(default = False)
-	config.usage.panicchannel = ConfigInteger(default = 1, limits=(1,5000) )
 	config.usage.enable_tt_caching = ConfigYesNo(default = True)
 	config.usage.sort_settings = ConfigYesNo(default=False)
 	choicelist = []

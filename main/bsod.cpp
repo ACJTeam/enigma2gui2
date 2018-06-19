@@ -212,7 +212,7 @@ void bsodFatal(const char *component)
 	os.clear();
 	os << "We are really sorry. Your STB encountered "
 		"a software problem, and needs to be restarted.\n"
-		"Please send the logfile " << crashlog_name << " to www.altoconsejojedi.es".\n"
+		"Please send the logfile " << crashlog_name << " to www.altoconsejojedi.es ".\n"
 		"Your STB restarts in 10 seconds!\n"
 		"Component: " << component;
 

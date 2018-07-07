@@ -2,10 +2,7 @@
 	<setup key="timezone" title="Timezone">
 		<item level="0" text="Timezone">config.timezone.val</item>
 	</setup>
-	<setup key="audio_setup">
-		<!-- this is just a placeholder, the Videomode plugin implements this submenu -->
-	</setup>
-	<setup key="video_setup">
+	<setup key="avsetup">
 		<!-- this is just a placeholder, the Videomode plugin implements this submenu -->
 	</setup>
 	<setup key="usage" title="Customize">

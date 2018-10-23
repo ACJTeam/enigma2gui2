@@ -13,7 +13,7 @@
 	<code> .. code .. </code>
 		"exec"s code
 -->
-		<item level="0" text="Timer" entryID="timer_edit"><screen module="TimerEdit" screen="TimerEditList"/></item>
+		<item level="0" text="Temporizadores" entryID="timer_edit"><screen module="TimerEdit" screen="TimerEditList"/></item>
 		<item level="1" text="VCR scart" entryID="scart_switch" configcondition="config.usage.show_vcr_scart" requires="ScartSwitch"><code>self.session.scart.VCRSbChanged(3)</code></item>
 
 		<menu level="0" text="Information" entryID="info_screen">
@@ -47,16 +47,15 @@
 
 				<menu level="0" text="GUI Settings" entryID="gui_settings">
 				<id val="gui"/>
+                                 <item weight="10" level="0" text="Weather TeamACJ" entryID="ommetrixweather_setup"><screen module="OMMetrixWeatherSetup" /></item>
 				<item level="0" text="Language" entryID="language_setup"><screen module="LanguageSelection"/></item>
 				<item level="0" entryID="timezone_setup"><setup id="timezone"/></item>
 				<item level="2" entryID="epg_settings"><setup id="epgsettings"/></item>
 				<item level="0" entryID="user_interface"><setup id="userinterface"/></item>
-				<item level="0" text="Weather TeamACJ" entryID="ommetrixweather_setup"><screen module="OMMetrixWeatherSetup" /></item>
 				</menu>
 				<item level="1" entryID="rfmod_setup" requires="RfModulator"><setup id="RFmod"/></item>
 				<menu level="0" text="Expert settings" entryID="expert_selection">
 				<id val="expert"/>
-				<item level="0" entryID="accesslevel_setup"><setup id="accesslevel"/></item>
 				<item level="0" entryID="recording_setup"><setup id="recording"/></item>
 
 					<menu level="0" text="Harddisk" entryID="hardisk_selection" requires="Harddisk">
